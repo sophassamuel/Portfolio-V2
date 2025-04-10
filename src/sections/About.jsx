@@ -8,7 +8,7 @@ const About = () => {
 
     const jobroles = ['Software developer', 'Full Stack Engineer', 'Web3 Enthusiast', 'Web Designer', 'AI/ML Architect', 'Security Analyst']
     return (
-        <div className='w-full h-dvh py-10 overflow-auto'>
+        <div className='w-full h-auto py-10 overflow-auto'>
             {/* Heading section */}
 
             <Title
