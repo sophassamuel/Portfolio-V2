@@ -31,6 +31,18 @@ const Navbar = () => {
                             </Link>
 
                         </li>
+                        <li className=''>
+                        <Link
+                                to="/"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+                                }}
+                                className="hover:underline"
+                            >
+                                Projects
+                            </Link>
+                        </li>
                         <li>
                             <Link
                                 to="/"
@@ -43,9 +55,6 @@ const Navbar = () => {
                                 Publications
                             </Link>
 
-                        </li>
-                        <li className=''>
-                            <Link to="/projects" className="hover:underline">Projects</Link>
                         </li>
                         <li className='hidden'>
                             <Link to="/certifications" className="hover:underline">Certifications</Link>

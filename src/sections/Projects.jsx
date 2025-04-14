@@ -4,7 +4,7 @@ import TiltedCard from '../components/ProjectCards'
 
 const Projects = () => {
     return (
-        <div className='w-full h-auto py-10 '>
+        <div id='projects' className='w-full h-auto py-10 '>
             <Title
                 small={'Projects'}
                 main={'A Glimpse into What I’ve Built'}
