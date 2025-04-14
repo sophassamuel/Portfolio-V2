@@ -50,10 +50,10 @@ const Hero = () => {
 
                 </div>
                 <div className='mt-3 flex flex-col sm:flex-row gap-5 justify-center items-center'>
-                    <button className='px-10 py-3 shadow-sm shadow-gray-800 bg-white rounded-lg text-black'>
+                    <button className='px-10 py-3 bg-white rounded-lg font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[6px_6px_0px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>
                         👋 Let's Connect
                     </button>
-                    <button className='py-3 shadow-sm shadow-gray-800 px-8 flex gap-2 bg-dark-button border-1 border-gray-700 rounded-lg'>
+                        <button className='py-3  px-8 flex gap-2 bg-dark-button border-1 border-gray-700 rounded-lg transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[6px_6px_0px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>
                         Explore Projects<MdArrowOutward className='mt-[3px] w-5 h-5' />
                     </button>
 

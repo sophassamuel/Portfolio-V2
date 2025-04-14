@@ -4,8 +4,8 @@ import grain from '@/assets/grain.jpg'
 
 const LongCard = ({ image, title, description }) => {
     return (
-        <div 
-        className='w-[90%] lg:w-[50%] flex flex-col sm:flex-row p-4 sm:p-10  gap-10 bg-[#14212b] backdrop-blur-lg hover:bg-gradient-to-r from-[#5d8943] via-[#047f6a] to-[#5d8943]  shadow-md shadow-primary-dark-50 rounded-lg'
+        <div
+            className='w-[90%] lg:w-[50%]  flex flex-col items-center sm:flex-row p-4 sm:p-10  gap-10 bg-[#14212b] backdrop-blur-lg hover:bg-gradient-to-r from-[#5d8943] via-[#047f6a] to-[#5d8943]  shadow-md shadow-primary-dark-50 rounded-lg'
         >
 
             {/* Text Container */}
@@ -22,8 +22,8 @@ const LongCard = ({ image, title, description }) => {
             </div>
 
             {/* Image Container */}
-            <div className='w-full sm:w-[40%]'>
-                <img src={`${image}`} alt='Card Image' />
+            <div className=' w-full sm:w-[40%] h-full'>
+                <img src={`${image}`} alt='Card Image' className='w-full h-56 object-fill rounded-lg' />
             </div>
 
 
