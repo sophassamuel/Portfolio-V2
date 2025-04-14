@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { MdArrowOutward } from "react-icons/md";
-import bgoverlay from "@/assets/bg-overlay.png"
 import Bubble from './Bubble';
 
 const ProjectCards = ({ img, text, bubbleText }) => {
@@ -17,7 +16,7 @@ const ProjectCards = ({ img, text, bubbleText }) => {
             className="relative p-[1px] rounded-xl bg-black shadow-md shadow-primary-dark-50 hover:bg-gradient-to-r from-[#C6FCA6] via-[#01fdd3] to-[#C6FCA6] w-40 h-40 sm:w-52 sm:h-52 lg:w-1/4 lg:h-80"
         >
 
-            <div className="flex flex-col justify-between items-center w-full h-full rounded-xl bg-[#081218]  px-4 py-4">
+            <div className="flex flex-col justify-between items-center w-full h-full rounded-xl bg-[#14212b] backdrop-blur-lg  px-4 py-4">
                 {/* Text Container */}
                 <div className="text-white w-full">
                     <h1>{text}</h1>

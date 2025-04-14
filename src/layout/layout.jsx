@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Outlet } from 'react-router-dom'
+import Footer from '../components/Footer'
 
 const MainLayout = () => {
   return (
-    <div className='bg-primary-light dark:bg-primary-dark'>
+    <div className='bg-primary-light dark:bg-primary-dark flex flex-col '>
     <Navbar/>
     <main>
         <Outlet/>
     </main>
+    <Footer/>
     </div>
   )
 }
