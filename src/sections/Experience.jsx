@@ -23,7 +23,7 @@ const Experience = () => {
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.05 }}
                     className='bg-[#14212b] border-gray-700 border-1 hover:border-b-green-500 overflow-clip hover:border-r-green-500 shadow-md shadow-green-950 backdrop-blur-lg text-white p-8 rounded-lg w-[90%] lg:w-[80%]'>
-                    <div className='absolute -top-24 -right-10 blur-3xl h-52 w-52 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
+                    <div className='absolute -top-5 -right-5 lg:-top-24 lg:-right-10 blur-lg md:blur-2xl lg:blur-3xl w-28 h-28 md:w-36 md:h-36 lg:h-52 lg:w-52 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
                     <div className='relative'>
                         <h1 className='text-2xl font-bold mb-3 '> Full Stack Engineer </h1>
                         <h4 className='text-gray-300 mb-1 text-xs sm:text-base '> Freelance (Self-Employed) · <span>Remote</span></h4>
@@ -47,10 +47,10 @@ const Experience = () => {
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.05 }}
                         className='bg-[#14212b] h-[100%] backdrop-blur-lg border-gray-700 border-1 overflow-clip hover:border-b-green-500 hover:border-r-green-500 shadow-md shadow-green-950 text-white p-8 rounded-lg w-[90%] sm:w-[50%]'>
-                        <div className='absolute -top-24 -right-10 blur-2xl h-52 w-52 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
+                        <div className='absolute -top-5 -right-5 lg:-top-24 lg:-right-10 blur-lg lg:blur-2xl w-28 h-28 lg:h-48 lg:w-48 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
 
                         <div>
-                            <h1 className='text-2xl font-bold mb-3'> Backend Development Intern </h1>
+                            <h1 className='text-2xl font-bold mb-3 pr-10'> Backend Development Intern </h1>
                             <h4 className='text-gray-300 mb-1 text-xs sm:text-base'> Legends Tech Solution · <span>On-site </span></h4>
                             <h4 className='text-gray-300 mb-4 text-xs sm:text-base'> Dec 2023 – Apr 2024 · India</h4>
                             <ul className='flex flex-col gap-3 text-xs sm:text-sm'>
@@ -70,7 +70,7 @@ const Experience = () => {
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.05 }}
                         className='bg-[#14212b] backdrop-blur-lg border-gray-700 border-1 overflow-clip hover:border-b-green-500 hover:border-r-green-500 shadow-md shadow-green-950 text-white p-8 rounded-lg w-[90%] sm:w-[50%]'>
-                        <div className='absolute -top-24 -right-10 blur-2xl h-52 w-52 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
+                        <div className='absolute -top-5 -right-5 lg:-top-24 lg:-right-10 blur-lg lg:blur-2xl w-28 h-28 lg:h-48 lg:w-48 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
                         <div>
                             <h1 className='text-2xl font-bold mb-3'> Cyber Security Intern </h1>
                             <h4 className='text-gray-300 mb-1 text-xs sm:text-base'> Cisco · <span>Remote</span></h4>
@@ -94,10 +94,10 @@ const Experience = () => {
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.05 }}
                     className='bg-[#14212b] border-gray-700 border-1 overflow-clip hover:border-b-green-500 hover:border-r-green-500 shadow-md shadow-green-950 backdrop-blur-lg text-white p-8 rounded-lg w-[90%] lg:w-[80%]'>
-                    <div className='absolute -top-24 -right-10 blur-3xl h-52 w-52 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
+                    <div className='absolute -top-5 -right-5 lg:-top-24 lg:-right-10 blur-lg md:blur-2xl lg:blur-3xl w-28 h-28 md:w-36 md:h-36 lg:h-52 lg:w-52 bg-linear-to-l from-[#C6FCA6] to-[#01fdd3] animate-spin rounded-full'></div>
 
                     <div>
-                        <h1 className='text-2xl font-bold mb-3'> Team Leader & Full Stack Developer </h1>
+                        <h1 className='text-2xl font-bold mb-3 pr-5'> Team Leader & Full Stack Developer </h1>
                         <h4 className='text-gray-300 mb-4 text-xs sm:text-base '> Finalist – Smart India Hackathon <span>Remote</span></h4>
                         <ul className='flex flex-col gap-3 text-xs sm:text-sm'>
                             <li className='flex flex-row gap-2 items-start'> - Pitched an original idea that led the team to be selected among the top 6 out of 170+ teams nationwide.</li>
