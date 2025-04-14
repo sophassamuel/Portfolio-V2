@@ -14,7 +14,7 @@ const Navbar = () => {
                 viewport={{ once: false, amount: 0.05 }}
                 className="flex p-3 px-6 rounded-full backdrop-blur-md bg-white/70 dark:bg-gray-900 border border-gray-300/20 antialiased dark:border-white/20 shadow-md items-center gap-6">
                 <nav>
-                    <ul className="flex text-sm  text-black dark:text-white font-semibold flex-row gap-8">
+                    <ul className="flex text-xs sm:text-sm  text-black dark:text-white font-semibold flex-row gap-8">
                         <li>
                             <Link to="/" className="hover:underline">Home</Link>
                         </li>
