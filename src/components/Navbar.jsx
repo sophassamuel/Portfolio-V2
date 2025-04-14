@@ -2,7 +2,7 @@ import React from 'react'
 import ThemeToggle from '../utils/WebsiteThemeToggle'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../assets/Animations/fadeIn'
+import { fadeIn } from '@/assets/Animations/fadeIn'
 
 const Navbar = () => {
     return (

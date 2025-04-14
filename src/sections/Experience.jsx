@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../assets/Animations/fadeIn'
+import { fadeIn } from '@/assets/Animations/fadeIn'
 
 const Experience = () => {
     return (

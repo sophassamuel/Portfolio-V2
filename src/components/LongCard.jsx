@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../assets/Animations/fadeIn'
+import { fadeIn } from '@/assets/Animations/fadeIn'
 
 const LongCard = ({ image, title, description}) => {
     return (

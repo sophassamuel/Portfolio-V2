@@ -3,7 +3,7 @@ import aboutimage from '@/assets/About-Image.png'
 import Bubble from '../components/Bubble'
 import Title from '../components/Title'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../assets/Animations/fadeIn'
+import { fadeIn } from '@/assets/Animations/fadeIn'
 
 const About = () => {
 

@@ -3,7 +3,7 @@ import Memoji from '@/assets/Memojis-home.png'
 import { MdArrowOutward } from "react-icons/md";
 import InfiniteScrollingLogosAnimation from '../components/ScrollingLogos';
 import { motion } from 'framer-motion';
-import { fadeIn } from '../assets/Animations/fadeIn';
+import { fadeIn } from '@/assets/Animations/fadeIn';
 
 const Hero = () => {
     const list = ["Developer", "Designer", "Data Analyst", "Web3 Enthusiast"]

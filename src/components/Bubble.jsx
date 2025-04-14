@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../assets/Animations/fadeIn'
+import { fadeIn } from '@/assets/Animations/fadeIn'
 
 const Bubble = ({ text, duration }) => {
   return (

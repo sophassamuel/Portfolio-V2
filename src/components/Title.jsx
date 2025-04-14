@@ -1,5 +1,5 @@
 import React from 'react'
-import { fadeIn } from '../assets/Animations/fadeIn'
+import { fadeIn } from '@/assets/Animations/fadeIn'
 import { motion } from 'framer-motion'
 
 

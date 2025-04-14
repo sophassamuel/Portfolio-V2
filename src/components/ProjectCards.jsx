@@ -3,8 +3,7 @@ import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { MdArrowOutward } from "react-icons/md";
 import Bubble from './Bubble';
 import { motion } from 'framer-motion';
-import { fadeIn } from '../assets/Animations/fadeIn';
-import { Link } from 'react-router-dom';
+import { fadeIn } from '@/assets/Animations/fadeIn';
 
 
 const ProjectCards = ({ img, text, bubbleText, link }) => {
