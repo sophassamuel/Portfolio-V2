@@ -4,6 +4,10 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
+  build: {
+    outDir: 'build',
+    sourcemap: true,
+},
   plugins: [
     react(),
     tailwindcss()
