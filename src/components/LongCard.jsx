@@ -1,11 +1,15 @@
 import React from 'react'
-import grain from '@/assets/grain.jpg'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../assets/Animations/fadeIn'
 
-
-const LongCard = ({ image, title, description }) => {
+const LongCard = ({ image, title, description}) => {
     return (
-        <div
-            className='w-[90%] lg:w-[50%]  flex flex-col-reverse items-center sm:flex-row p-4 sm:p-10  gap-10 bg-[#14212b] backdrop-blur-lg hover:bg-gradient-to-r from-[#5d8943] via-[#047f6a] to-[#5d8943]  shadow-md shadow-primary-dark-50 rounded-lg'
+        <motion.div
+            variants={fadeIn('up', 0.2, 1)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.05 }}
+            className='w-[90%] lg:w-[50%]  flex flex-col-reverse items-center sm:flex-row p-8 sm:p-10  gap-10 bg-[#14212b] backdrop-blur-lg hover:bg-gradient-to-r from-[#14212b] via-[#1f2f3c] to-[#14212b]  rounded-lg transition-all duration-300 hover:scale-105 hover:rounded-md hover:shadow-[0px_0px_10px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'
         >
 
             {/* Text Container */}
@@ -16,7 +20,7 @@ const LongCard = ({ image, title, description }) => {
                 <p className='text-xs text-center sm:text-left text-gray-400'>
                     {description}
                 </p>
-                <button className='w-32 h-10 rounded-lg mt-5 bg-white text-black'>
+                <button className='w-32 h-10 rounded-lg mt-5 bg-white text-black transition-all duration-300  hover:rounded-md hover:shadow-[3px_3px_0px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>
                     Read More
                 </button>
             </div>
@@ -27,7 +31,7 @@ const LongCard = ({ image, title, description }) => {
             </div>
 
 
-        </div>
+        </motion.div>
     )
 }
 

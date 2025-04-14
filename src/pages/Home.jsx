@@ -10,9 +10,9 @@ const HomePage = () => {
 
     <>
         <Hero/>
-        <About/>
+        <About />
         <Projects/>
-        <Publications/>
+        <Publications />
         <Experience/>
     </>
   )

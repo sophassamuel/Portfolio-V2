@@ -13,38 +13,41 @@ const Projects = () => {
             <div className='flex justify-center'>
                 <div className='flex flex-row flex-wrap gap-5 w-[90%] justify-center py-10'>
                     <TiltedCard
+                        text={'Autostruct AI'}
+                        bubbleText={['ReactJS','ExpressJS','MongoDB','NodeJS','Tailwind CSS','Google OAuth','OpenAI API','NLP','Scaffolding']}
+                        link={'https://github.com/AutoStructAI'}
+                    />
+                    <TiltedCard
                         text={'Medicinal Plant identification'}
-                        bubbleText={['Software developer', 'Full Stack Engineer', 'Web3 Enthusiast', 'Web Designer', 'AI/ML Architect', 'Security Analyst']} 
-                        />
+                        bubbleText={['Python', 'Jupyter Notebook', 'NumPy', 'Pandas', 'AI/ML', 'Random Forest Classifier', 'Flask', 'HTML', 'CSS']}
+                        link={'https://github.com/sophassamuel/Medicinal-Plant-Identification-using-CNN-and-deployed-using-flask-'}
+                    />
 
                     <TiltedCard
-                        text={'Portfolio V2'} 
-                        bubbleText={['Software developer', 'Full Stack Engineer', 'Web3 Enthusiast', 'Web Designer', 'AI/ML Architect', 'Security Analyst']} 
-
-                        />
-
-                    <TiltedCard
-                        text={'Facial Landmark Detection & Paralysis Identification'} 
-                        bubbleText={['Software developer', 'Full Stack Engineer', 'Web3 Enthusiast', 'Web Designer', 'AI/ML Architect', 'Security Analyst']} 
-
-                        />
+                        text={'Portfolio V2'}
+                        bubbleText={['React', 'Tailwind', 'ShadeCn', 'Framer Motion', 'CSS']}
+                        link={'https://github.com/sophassamuel/Portfolio-V2'}
+                    />
 
                     <TiltedCard
-                        text={'Blog Site Using ReachJS PostgreSQL ExpressJS'} 
-                        bubbleText={['Software developer', 'Full Stack Engineer', 'Web3 Enthusiast', 'Web Designer', 'AI/ML Architect', 'Security Analyst']} 
-
-                        />
-
-                    <TiltedCard
-                        text={'Soft Computing Algorithms'} 
-                        bubbleText={['Software developer', 'Full Stack Engineer', 'Web3 Enthusiast', 'Web Designer', 'AI/ML Architect', 'Security Analyst']} 
-
-                        />
+                        text={'Facial Landmark Detection & Paralysis Identification'}
+                        bubbleText={['Python', 'Jupyter Notebook', 'NumPy', 'OpenCV', 'TensorFlow', 'Keras', 'Flask', 'HTML', 'CSS']}
+                        link={'https://github.com/sophassamuel/Facial-Landmark-Detection-and-Paralysis-Identification'}
+                    />
 
                     <TiltedCard
-                        text={'Autostruct AI'} 
-                        bubbleText={['Software developer', 'Full Stack Engineer', 'Web3 Enthusiast', 'Web Designer', 'AI/ML Architect', 'Security Analyst']} 
-                        />
+                        text={'Blog Site with CRUD operations'}
+                        bubbleText={['React', 'Express', 'Node', 'PostgreSQL', 'Sequelize', 'CSS']}
+                        link={'https://github.com/sophassamuel/Blog-Site-ReachJS-PostgreSQL-ExpressJS'}
+                    />
+
+                    <TiltedCard
+                        text={'Soft Computing Algorithms'}
+                        bubbleText={['Python', 'Jupyter Notebook', 'NumPy', 'Pandas', 'Keras', 'TensorFlow']}
+                        link={'https://github.com/sophassamuel/Soft-Computing-Algorithms'}
+                    />
+
+
                 </div>
             </div>
         </div>

@@ -54,12 +54,13 @@ const Publications = () => {
 
 
     return (
-        <div className='w-full h-auto py-10'>
+        <div id='publications' className='w-full h-auto relative py-10'>
             <Title
                 small={'Publications'}
                 main={'Published Works & Contributions'}
                 sub={'A collection of research papers, articles, and written contributions across various domains.'}
             />
+
             <div className='flex flex-col justify-center items-center gap-5 py-10'>
                 {papers.map((item, index) => {
                     const { image, title, description } = item
