@@ -25,12 +25,12 @@ const Footer = () => {
                         </div>
                         <div className="flex items-center  gap-2">
                             <FaGithubSquare className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
-                            <a href="mailto:sophaswork@gmail.com" target='_blank' className="hover:underline">Github</a>
+                            <a href="https://github.com/sophassamuel/" target='_blank' className="hover:underline">Github</a>
                             <MdArrowOutward className='animate-pulse'/>
                         </div>
                         <div className="flex items-center  gap-2">
                             <AiFillInstagram className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
-                            <a href="mailto:sophaswork@gmail.com" target='_blank' className="hover:underline">Instagram</a>
+                            <a href="https://www.instagram.com/__sophas._.sam__/?utm_source=qr&igsh=MWR2bnA5YTFqNW14Mw%3D%3D#" target='_blank' className="hover:underline">Instagram</a>
                             <MdArrowOutward className='animate-pulse'/>
                         </div>
 
