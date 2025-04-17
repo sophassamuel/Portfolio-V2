@@ -23,7 +23,7 @@ const LongCard = ({ image, title, description, link}) => {
                     {description}
                 </p>
                 <a href={link} target='_blank'>
-                <button className='w-32 h-10 rounded-lg mt-5 bg-white text-black transition-all duration-300  hover:rounded-md hover:shadow-[3px_3px_0px_#05df72] :translate-x-[0px] :translate-y-[0px] :rounded-2xl :shadow-none'>
+                <button className='cursor-pointer w-32 h-10 rounded-lg mt-5 bg-white text-black transition-all duration-300  hover:rounded-md hover:shadow-[3px_3px_0px_#05df72] :translate-x-[0px] :translate-y-[0px] :rounded-2xl :shadow-none'>
                     Read More
                 </button>
                 </a>

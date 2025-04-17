@@ -69,8 +69,8 @@ const Hero = () => {
                         whileInView={"show"}
                         viewport={{ once: true, amount: 0.05 }}
                     >
-                        <a href='mailto:sophaswork@gmail.com'>
-                            <button className='px-10 py-3 bg-white rounded-lg font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[6px_6px_0px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>
+                        <a className='pointer-events-auto' href='mailto:sophaswork@gmail.com'>
+                            <button className='cursor-pointer px-10 py-3 bg-white rounded-lg font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[6px_6px_0px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>
                                 👋 Let's Connect
                             </button>
                         </a>
@@ -82,7 +82,7 @@ const Hero = () => {
                         viewport={{ once: true, amount: 0.05 }}
                     >
                         <a href='https://github.com/sophassamuel' target='_blank'>
-                            <button className='py-3  px-8 flex gap-2 bg-dark-button border-1 border-gray-700 rounded-lg transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[6px_6px_0px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>
+                            <button className='cursor-pointer py-3  px-8 flex gap-2 bg-dark-button border-1 border-gray-700 rounded-lg transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[6px_6px_0px_#05df72] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>
                                 Explore Projects<MdArrowOutward className='mt-[3px] w-5 h-5' />
                             </button>
                         </a>

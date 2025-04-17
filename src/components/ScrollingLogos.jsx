@@ -2,7 +2,6 @@ import React from 'react';
 
 const CompanyLogoData = [
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', alt: 'MongoDB' },
-    { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg', alt: 'Express' },
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', alt: 'React' },
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg', alt: 'Node.js' },
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', alt: 'Python' },
@@ -15,7 +14,7 @@ const CompanyLogoData = [
 
 const InfiniteScrollingLogosAnimation = () => {
     return (
-        <div className="w-[50%] mx-auto overflow-hidden py-8 relative">
+        <div className="w-[50%] select-none mx-auto overflow-hidden py-8 relative">
             <h2 className="text-center text-xl text-white/70 mb-6">
                 Technologies Known
             </h2>
