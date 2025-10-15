@@ -1,8 +1,9 @@
 import React from 'react'
 import { MdArrowOutward, MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
+import { AiFillInstagram, AiFillTwitterSquare } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
@@ -13,26 +14,42 @@ const Footer = () => {
                         <p className='text-gray-500 font-bold'>Created with <span className='animate-pulse'>❤️</span> by <span className='text-white'>Sophas</span></p>
                     </div>
                     <div className='flex flex-row flex-wrap justify-center text-white items-center gap-5'>
+                                                    <a href="mailto:sophaswork@gmail.com" className="">
+
                         <div className="flex items-center  gap-2">
                             <MdEmail className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
                             <a href="mailto:sophaswork@gmail.com" className="hover:underline">sophaswork@gmail.com</a>
-                            <MdArrowOutward className='animate-pulse'/>
+                            <MdArrowOutward className='animate-pulse' />
                         </div>
-                        <div className="flex items-center  gap-2">
-                            <FaLinkedin className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
-                            <a href="https://www.linkedin.com/in/sophas/" target='_blank' className="hover:underline">LinkedIn</a>
-                            <MdArrowOutward className='animate-pulse'/>
-                        </div>
-                        <div className="flex items-center  gap-2">
-                            <FaGithubSquare className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
-                            <a href="https://github.com/sophassamuel/" target='_blank' className="hover:underline">Github</a>
-                            <MdArrowOutward className='animate-pulse'/>
-                        </div>
-                        <div className="flex items-center  gap-2">
-                            <AiFillInstagram className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
-                            <a href="https://www.instagram.com/__sophas._.sam__/?utm_source=qr&igsh=MWR2bnA5YTFqNW14Mw%3D%3D#" target='_blank' className="hover:underline">Instagram</a>
-                            <MdArrowOutward className='animate-pulse'/>
-                        </div>
+                        </a>
+                        <a href="https://x.com/s_sophas/" target='_blank' className="">
+                            <div className="flex items-center  gap-2">
+                                <FaSquareXTwitter className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
+                                <a href="https://x.com/s_sophas/" target='_blank' className="hover:underline">X.com</a>
+                                <MdArrowOutward className='animate-pulse' />
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sophas/" target='_blank' className="">
+                            <div className="flex items-center  gap-2">
+                                <FaLinkedin className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
+                                <a href="https://www.linkedin.com/in/sophas/" target='_blank' className="hover:underline">LinkedIn</a>
+                                <MdArrowOutward className='animate-pulse' />
+                            </div>
+                        </a>
+                        <a href="https://github.com/sophassamuel/" target='_blank' className="">
+                            <div className="flex items-center  gap-2">
+                                <FaGithubSquare className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
+                                <a href="https://github.com/sophassamuel/" target='_blank' className="hover:underline">Github</a>
+                                <MdArrowOutward className='animate-pulse' />
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/__sophas._.sam__/?utm_source=qr&igsh=MWR2bnA5YTFqNW14Mw%3D%3D#" target='_blank' className="">
+                            <div className="flex items-center  gap-2">
+                                <AiFillInstagram className="w-5 h-5 text-gray-500" /> {/* e.g. from Lucide or Heroicons */}
+                                <a href="https://www.instagram.com/__sophas._.sam__/?utm_source=qr&igsh=MWR2bnA5YTFqNW14Mw%3D%3D#" target='_blank' className="hover:underline">Instagram</a>
+                                <MdArrowOutward className='animate-pulse' />
+                            </div>
+                        </a>
 
                     </div>
                 </div>
